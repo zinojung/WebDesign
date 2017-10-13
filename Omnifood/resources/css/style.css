@@ -176,6 +176,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 
@@ -351,4 +352,46 @@ header {
     line-height: 120%;
     vertical-align: middle;
     margin-top: -4px;
+}
+
+/* --------------------------------------- */
+/* CUSTOMER */
+/* --------------------------------------- */
+
+.section-customer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+    background-size: cover;
+    height: 50vh;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 500%;
+    position: absolute;
+    top:-5px;
+    left:-5px;
+}
+
+.section-customer blockquote {
+    font-style: italic;
+    line-height: 145%;
+    height: 150px;
+    position: relative;
+    margin-top: 40px;
+}
+
+cite{
+    display: block;
+    margin-top: 25px;
+    height: 30px;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }

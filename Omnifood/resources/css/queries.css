@@ -1,0 +1,169 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%;}
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+       
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box:first-child { margin-top: 10px;}
+    .steps-box:last-child { margin-top: 10px;}
+    .works-step { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 60px; }
+    .app-screen { width: 42%}
+    
+    .cities h2 { font-size : 160%;}
+    .cities h3 { font-size : 100%;}
+    .cities li { font-size : 85%; }
+       
+    .cities i {
+        margin-right: 2px;
+        width: 20px;
+    }
+    
+    /*  price-plan  */
+    .price-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .plan-options i { margin-right: 10px; }
+    .per-month-text span { font-size: 250%; }
+    .section-price h2 { font-size: 160%; }
+    
+    .price-header {
+        height: 150px;
+        padding: 15px;
+    }
+    
+    .plan-options { font-size: 85%; }
+    
+    /*  subscribe  */
+    .form-container { width: 80%; }
+    
+    nav i{ display: none; }
+    
+    .main-nav { display: block; }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0;}
+    h2 { font-size: 145%; }
+    .row,
+    .hero-text-box { padding: 0 4%;}
+    
+    .col {width: 100%;}
+    /*  header */
+    .main-nav li a,
+    .sticky .main-nav li a:link, 
+    .sticky .main-nav li a:visited {
+        padding: 0;
+    }
+        
+    .main-nav li,
+    .sticky .main-nav li { 
+        display: block; 
+        margin-top: 12px;
+        padding: 5px;
+        font-size: 120%;
+    }
+    
+    .main-nav { 
+        float: left;
+        display: none;
+        padding: 5px;
+    }
+    
+    .main-nav ul {
+        margin-bottom : 5px;
+    }
+    
+    nav i {
+        display: block;
+    }
+    
+    .long-copy {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .icon-big {
+        font-size: 170%;
+        margin-bottom: 0;
+    }
+    
+    .col { margin: 0 1% 0 0; } 
+    
+    /* How Work  */
+    .steps-box:first-child {
+        text-align: center;
+    }
+    
+    .app-screen {
+        width: 30%;
+    }
+    
+    .works-step {
+        margin-bottom: 30px;
+    }
+    
+    .works-step:last-of-type {
+        margin-bottom: 30px;
+    }    
+    
+    .works-step div { 
+        width: 30px;
+        height: 30px;
+        padding-top: 6px;
+    }
+    
+    .btn-app img {
+    width: auto;
+    height: 40px;
+    margin-right: 10px;
+    }
+    
+    #group-of-btn {
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .cities h3 { font-size : 130%;}
+    .cities li { font-size : 100%; }
+    
+    .cities .box {
+        padding: 0 10% 5% 10%;
+    }
+    
+    /*  subscribe  */
+    .form-container { width: 100%; }
+}
+
+/* Small phones: form 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    
+    .btn-app img {
+        width: auto;
+        height: 40px;
+        margin-right: 10px;
+    }
+    
+    #group-of-btn {
+        width: 75%;
+        margin: 0 auto;
+    }
+}
